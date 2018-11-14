@@ -15,7 +15,7 @@ x = 1
 y = 0
 
 while (y<8):
-  sense.set_pixel(x,y,green)
+  sense.set_pixel(x,y,blue)
   time.sleep(0.1)
   sense.set_pixel(x,y,blue)
   time.sleep(0.1)
